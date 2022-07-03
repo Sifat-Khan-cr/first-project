@@ -25,6 +25,7 @@ section {
 
 .button {
     text-decoration: none;
+    color: white;
     font-weight: bold;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
