@@ -16,8 +16,11 @@ h5 {
     font-weight: lighter;
 }
 
-section {
+.line {
     display: flex;
+}
+
+section {
     margin-bottom: 100px;
 }
 
@@ -52,4 +55,36 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shadow {
+    box-shadow: 10px 10px 40px rgb(108, 105, 105);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 15%;
+    text-align: left;
+
+}
+
+#baby {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 10px solid blue;
+
+}
+
+#full {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 10px solid orange;
+}
+
+.expe {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#foot {
+    text-align: center;
 }
